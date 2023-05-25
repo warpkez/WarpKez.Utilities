@@ -4,9 +4,6 @@ on:
   push:
     tags:
     - 'v*'
-  #push:
-  #  branches:
-  #      - master
 
 env:
   PROJECT_NAME: 'WarpKez.Utilities'
