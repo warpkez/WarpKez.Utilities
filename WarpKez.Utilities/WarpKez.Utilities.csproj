@@ -4,6 +4,12 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageProjectUrl>https://github.com/warpkez/WarpKez.Utilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/warpkez/WarpKez.Utilities</RepositoryUrl>
+    <Title>$(AssemblyName)</Title>
+    <Authors>Wayne Jackson</Authors>
+    <Description>A collection of classes, methods and wrappers just to make some tasks easier.</Description>
+    <Copyright>2023</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
