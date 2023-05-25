@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarpKez.Utilities", "WarpKez.Utilities\WarpKez.Utilities.csproj", "{C45F979F-F4A1-4ABB-901D-6E3E9363FD04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{406C50EA-D0B7-48AF-A3C6-DBF91DFFD50C}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\buildnuget.yml = .github\workflows\buildnuget.yml
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleConsoleApp", "SampleConsoleApp\SampleConsoleApp.csproj", "{5F7B9F9B-F49D-4E89-8D3F-3E8E24186653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C45F979F-F4A1-4ABB-901D-6E3E9363FD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45F979F-F4A1-4ABB-901D-6E3E9363FD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45F979F-F4A1-4ABB-901D-6E3E9363FD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45F979F-F4A1-4ABB-901D-6E3E9363FD04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7B9F9B-F49D-4E89-8D3F-3E8E24186653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7B9F9B-F49D-4E89-8D3F-3E8E24186653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7B9F9B-F49D-4E89-8D3F-3E8E24186653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7B9F9B-F49D-4E89-8D3F-3E8E24186653}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3EAF82-6D8A-4AE8-A28A-43CF06840B85}
+	EndGlobalSection
+EndGlobal
